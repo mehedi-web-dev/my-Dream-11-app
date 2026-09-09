@@ -1,10 +1,26 @@
-
+import { Suspense, useState } from "react";
+import Hero from "./component/Hero";
 import Nav from "./component/Nav";
+import Players from "./players/Players";
+
+import type { PlayerType } from "./type";
+
+
+const playerPromise=async():Promise<PlayerType[]>=>{
+ const res=await fetch("/data.json")
+ const data=await res.json()
+ return data
+}
 
 function App() {
+  const[coins,setCoins]=useState(5000)
   return (
     <>
-     <Nav></Nav>
+     <Nav coins={coins}></Nav>
+     <Hero></Hero>
+   <Suspense fallback="Loading............">
+     <Players playerPromise={playerPromise()} coins={coins} setCoins={setCoins} ></Players>
+   </Suspense>
     </>
   )
 }
