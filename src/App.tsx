@@ -6,20 +6,21 @@ import Players from "./players/Players";
 import type { PlayerType } from "./type";
 
 
-const playerPromise=async():Promise<PlayerType[]>=>{
+const playerFetch=async():Promise<PlayerType[]>=>{
  const res=await fetch("/data.json")
  const data=await res.json()
  return data
 }
 
 function App() {
-  const[coins,setCoins]=useState(5000)
+  const [playerPromise]=useState(()=>playerFetch())
+  const[coins,setCoins]=useState(1500)
   return (
     <>
      <Nav coins={coins}></Nav>
      <Hero></Hero>
    <Suspense fallback="Loading............">
-     <Players playerPromise={playerPromise()} coins={coins} setCoins={setCoins} ></Players>
+     <Players playerPromise={playerPromise} coins={coins} setCoins={setCoins} ></Players>
    </Suspense>
     </>
   )

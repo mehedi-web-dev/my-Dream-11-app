@@ -1,17 +1,29 @@
-import { useState, type Dispatch, type SetStateAction } from "react";
+import {  type Dispatch, type SetStateAction } from "react";
 import type { PlayerType } from "../type";
+import { toast } from "react-toastify";
 
 interface PlayerCardsProps {
   player: PlayerType;
-   coins:number,setCoins:Dispatch<SetStateAction<Number>>;
+   coins:number,setCoins:Dispatch<SetStateAction<number>>;
+    selectedPlayer:PlayerType[],
+   setSelectedPlayer:Dispatch<SetStateAction<PlayerType[]>>
 }
 
-const PlayerCards = ({ player,coins,setCoins }: PlayerCardsProps) => {
+const PlayerCards = ({ player,coins,setCoins,selectedPlayer,setSelectedPlayer}: PlayerCardsProps) => {
 
-  const [isSelected,setIsSelected]=useState(false)
+  // const [isSelected,setIsSelected]=useState(false)
+  const isSelected = selectedPlayer.some(
+  (selected) => selected.playerName === player.playerName
+);
   const hanldleSeleted=()=>{
-    setIsSelected(true);
-    setCoins(coins-player.price)
+    // setIsSelected(true);
+    if(coins>=player.price){
+      setCoins(coins-player.price)
+      toast.success(`${player.playerName} purches Successfully`)
+    }else{
+      toast.error(`Insaficiant Balence`)
+    }
+    setSelectedPlayer([...selectedPlayer,player])
   }
   return (
   <div >
@@ -118,7 +130,7 @@ const PlayerCards = ({ player,coins,setCoins }: PlayerCardsProps) => {
             </h3>
           </div>
 
-          <button onClick={hanldleSeleted} className={`btn ${isSelected===false?"bg-amber-500":"bg-green-800"} hover:bg-green-900 text-white border-none`}>
+          <button onClick={hanldleSeleted} disabled={isSelected} className={`btn ${isSelected===false?"bg-amber-500":"bg-green-800"} hover:bg-green-900 text-white border-none`}>
            {isSelected=== false?"Choose Player":'Selected'}
           </button>
 
