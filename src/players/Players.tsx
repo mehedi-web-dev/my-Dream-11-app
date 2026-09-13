@@ -17,7 +17,7 @@ const Players = ({playerPromise,coins,setCoins}: PlayersProps) => {
   }
   
   return (
-    <div className="md:container mx-auto md:py-16 px-5 py-10 ">
+    <div className="md:container md:mx-auto md:py-16 px-5 py-10 ">
       <div className="flex justify-between items-center my-5 ">
         <h2 className="font-bold font-mono md:text-3xl text-[20px]">{buttonType==="available"?"Available Players":"Selected Players"}</h2>
         <div>

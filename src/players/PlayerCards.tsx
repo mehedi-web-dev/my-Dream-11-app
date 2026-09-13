@@ -27,117 +27,135 @@ const PlayerCards = ({ player,coins,setCoins,selectedPlayer,setSelectedPlayer}: 
   }
   return (
   <div >
-      <div className="card w-full bg-base-100 shadow-lg border z-0 border-gray-200 rounded-2xl overflow-hidden">
-      
-      {/* Player Image */}
-      <figure className="px-5 pt-5">
-        <img
-          src={player.playerImage}
-          alt={player.playerName}
-          className="w-full h-56  rounded-xl"
-        />
-      </figure>
+     <div className="card w-full bg-base-100 shadow-lg border border-gray-200 rounded-2xl overflow-hidden">
 
-      <div className="card-body p-5">
-        
-        {/* Player Name */}
-        <h2 className="card-title text-2xl font-bold">
-          👤 {player.playerName}
-        </h2>
+{/* Player Image */}
 
-        {/* Origin + Player Type */}
-        <div className="flex justify-between items-center">
-          <p className="text-gray-500">
-            🚩 {player.origin}
-          </p>
+  <figure className="px-3 pt-3 sm:px-4 sm:pt-4 md:px-5 md:pt-5">
+    <img
+      src={player.playerImage}
+      alt={player.playerName}
+      className="w-full h-48 sm:h-52 md:h-56 lg:h-60 object-cover rounded-xl"
+    />
+  </figure>
 
-          <span className="badge badge-lg p-4">
-            {player.playerType}
-          </span>
-        </div>
+  <div className="card-body p-4 sm:p-5">
 
-        <div className="divider my-1"></div>
+```
+{/* Player Name */}
+<h2 className="card-title text-xl  font-bold">
+  👤 {player.playerName}
+</h2>
 
-        {/* Rating */}
-        <div>
-          <p className="font-semibold mb-2">Rating</p>
+{/* Origin + Player Type */}
+<div className="flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center">
+  <p className="text-gray-500 text-sm sm:text-base">
+    🚩 {player.origin}
+  </p>
 
-          <div className="rating">
-            <input
-              type="radio"
-              name={`rating-${player.playerName}`}
-              className="mask mask-star-2 bg-orange-400"
-              checked
-              readOnly
-            />
-            <input
-              type="radio"
-              name={`rating-${player.playerName}`}
-              className="mask mask-star-2 bg-orange-400"
-              checked
-              readOnly
-            />
-            <input
-              type="radio"
-              name={`rating-${player.playerName}`}
-              className="mask mask-star-2 bg-orange-400"
-              checked
-              readOnly
-            />
-            <input
-              type="radio"
-              name={`rating-${player.playerName}`}
-              className="mask mask-star-2 bg-orange-400"
-              checked
-              readOnly
-            />
-          </div>
-        </div>
+  <span className="badge badge-lg p-3 sm:p-4">
+    {player.playerType}
+  </span>
+</div>
 
-        {/* Batting and Bowling */}
-        <div className="flex justify-between gap-5 mt-2">
-          
-          <div>
-            <p className="text-gray-500 font-medium">
-              Batting Style
-            </p>
+<div className="divider my-1"></div>
 
-            <h3 className="font-bold">
-              {player.battingStyle}
-            </h3>
-          </div>
+{/* Rating */}
+<div>
+  <p className="font-semibold mb-2">Rating</p>
 
-          <div className="text-right">
-            <p className="text-gray-500 font-medium">
-              Bowling Style
-            </p>
+  <div className="rating rating-sm sm:rating-md">
+    <input
+      type="radio"
+      name={`rating-${player.playerName}`}
+      className="mask mask-star-2 bg-orange-400"
+      checked
+      readOnly
+    />
 
-            <h3 className="font-bold">
-              {player.bowlingStyle}
-            </h3>
-          </div>
+    <input
+      type="radio"
+      name={`rating-${player.playerName}`}
+      className="mask mask-star-2 bg-orange-400"
+      checked
+      readOnly
+    />
 
-        </div>
+    <input
+      type="radio"
+      name={`rating-${player.playerName}`}
+      className="mask mask-star-2 bg-orange-400"
+      checked
+      readOnly
+    />
 
-        {/* Price + Button */}
-        <div className="flex justify-between items-center mt-5">
-          
-          <div>
-            <p className="text-gray-500">Price</p>
+    <input
+      type="radio"
+      name={`rating-${player.playerName}`}
+      className="mask mask-star-2 bg-orange-400"
+      checked
+      readOnly
+    />
+  </div>
+</div>
 
-            <h3 className="text-xl font-bold text-green-700">
-              ${player.price}
-            </h3>
-          </div>
+{/* Batting and Bowling */}
+<div className="flex flex-col gap-4 mt-3 sm:flex-row sm:justify-between sm:gap-5">
 
-          <button onClick={hanldleSeleted} disabled={isSelected} className={`btn ${isSelected===false?"bg-amber-500":"bg-green-800"} hover:bg-green-900 text-white border-none`}>
-           {isSelected=== false?"Choose Player":'Selected'}
-          </button>
+  <div>
+    <p className="text-gray-500 font-medium text-sm sm:text-base">
+      Batting Style
+    </p>
 
-        </div>
+    <h3 className="font-bold text-sm sm:text-base">
+      {player.battingStyle}
+    </h3>
+  </div>
 
-      </div>
-    </div>
+  <div className="sm:text-right">
+    <p className="text-gray-500 font-medium text-sm sm:text-base">
+      Bowling Style
+    </p>
+
+    <h3 className="font-bold text-sm sm:text-base">
+      {player.bowlingStyle}
+    </h3>
+  </div>
+
+</div>
+
+{/* Price + Button */}
+<div className="flex flex-col gap-4 mt-5 sm:flex-row sm:justify-between sm:items-center">
+
+  <div>
+    <p className="text-gray-500 text-sm sm:text-base">
+      Price
+    </p>
+
+    <h3 className="text-lg sm:text-xl font-bold text-green-700">
+      ${player.price}
+    </h3>
+  </div>
+
+  <button
+    onClick={hanldleSeleted}
+    disabled={isSelected}
+    className={`btn w-full sm:w-auto ${
+      isSelected === false
+        ? "bg-amber-500"
+        : "bg-green-800"
+    } hover:bg-green-900 text-white border-none`}
+  >
+    {isSelected === false ? "Choose Player" : "Selected"}
+  </button>
+
+</div>
+```
+
+  </div>
+
+</div>
+
   </div>
   );
 };

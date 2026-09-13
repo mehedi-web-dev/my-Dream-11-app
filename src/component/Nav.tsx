@@ -1,4 +1,4 @@
-import { CiDollar } from "react-icons/ci";
+import { FaDollarSign } from "react-icons/fa";
 import logo from "../assets/logo.png";
 interface NavProps {
   coins: number;
@@ -14,8 +14,8 @@ const Nav = ({coins}:NavProps) => {
         <ul><li><a href=""className="font-medium text-black font-mono text-[15px]">Player</a></li></ul>
         <ul><li><a href=""className="font-medium text-black font-mono text-[15px]">Dream-11</a></li></ul>
 
-        <h2 className="flex gap-1 items-center justify-center font-bold font-mono text-[15px]"><CiDollar/>{coins}</h2>
       </div>
+      <div className="flex justify-center items-center"><h2 className="flex gap-1 items-center justify-center font-bold font-mono text-[15px]"><FaDollarSign />{coins}</h2></div>
      </div>
    </div>
   );

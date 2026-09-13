@@ -1,43 +1,8 @@
 [
-  {
-    "playerName": "Mehedi Hasan",
-    "playerImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/383500/383539.6.jpg",
-    "origin": "Bangladesh",
-    "playerType": "All-Rounder",
-    "bowlingStyle": "Right-arm Off Break",
-    "battingStyle": "Right-hand Bat",
-    "price": 700
-  },
-  {
-    "playerName": "Jewel",
-   "playerImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/383500/383539.6.jpg",
-    "origin": "Bangladesh",
-    "playerType": "Batsman",
-    "bowlingStyle": "None",
-    "battingStyle": "Right-hand Bat",
-    "price": 650
-  },
-  {
-    "playerName": "Rakib",
-   "playerImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/383500/383539.6.jpg",
-    "origin": "Bangladesh",
-    "playerType": "Bowler",
-    "bowlingStyle": "Right-arm Fast",
-    "battingStyle": "Right-hand Bat",
-    "price": 600
-  },
-  {
-    "playerName": "Sakib",
-  "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63881.png",
-    "origin": "Bangladesh",
-    "playerType": "All-Rounder",
-    "bowlingStyle": "Left-arm Orthodox",
-    "battingStyle": "Left-hand Bat",
-    "price": 700
-  },
+ 
   {
     "playerName": "Tamim",
-   "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63881.png",
+    "playerImage": "/src/assets/tamim.jpg",
     "origin": "Bangladesh",
     "playerType": "Batsman",
     "bowlingStyle": "None",
@@ -46,7 +11,7 @@
   },
   {
     "playerName": "Mashrafe",
-    "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63881.png",
+    "playerImage": "/src/assets/masraffe.jpg",
     "origin": "Bangladesh",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
@@ -55,25 +20,17 @@
   },
   {
     "playerName": "Mushfiq",
-    "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63881.png",
+    "playerImage": "/src/assets/musfique.jpg",
     "origin": "Bangladesh",
     "playerType": "Wicket Keeper",
     "bowlingStyle": "None",
     "battingStyle": "Right-hand Bat",
     "price": 690
   },
-  {
-    "playerName": "Litton",
-  "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63881.png",
-    "origin": "Bangladesh",
-    "playerType": "Wicket Keeper",
-    "bowlingStyle": "None",
-    "battingStyle": "Right-hand Bat",
-    "price": 670
-  },
+  
   {
     "playerName": "Taskin",
-    "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63881.png",
+    "playerImage": "/src/assets/Taskin.jpg",
     "origin": "Bangladesh",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
@@ -82,106 +39,29 @@
   },
   {
     "playerName": "Mustafiz",
-  "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63881.png",
+    "playerImage": "/src/assets/Mustafiz.jpg",
     "origin": "Bangladesh",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast Medium",
     "battingStyle": "Left-hand Bat",
     "price": 680
   },
-  {
-    "playerName": "Shanto",
-  "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63881.png",
-    "origin": "Bangladesh",
-    "playerType": "Batsman",
-    "bowlingStyle": "Right-arm Off Break",
-    "battingStyle": "Left-hand Bat",
-    "price": 630
-  },
-  {
-    "playerName": "Afif",
-  "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63881.png",
-    "origin": "Bangladesh",
-    "playerType": "All-Rounder",
-    "bowlingStyle": "Right-arm Off Break",
-    "battingStyle": "Left-hand Bat",
-    "price": 610
-  },
-  {
-    "playerName": "Miraz",
-   "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63881.png",
-    "origin": "Bangladesh",
-    "playerType": "All-Rounder",
-    "bowlingStyle": "Right-arm Off Break",
-    "battingStyle": "Right-hand Bat",
-    "price": 690
-  },
-  {
-    "playerName": "Soumya",
-    "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
-    "origin": "Bangladesh",
-    "playerType": "All-Rounder",
-    "bowlingStyle": "Right-arm Medium",
-    "battingStyle": "Left-hand Bat",
-    "price": 580
-  },
-  {
-    "playerName": "Riyad",
- "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
-    "origin": "Bangladesh",
-    "playerType": "All-Rounder",
-    "bowlingStyle": "Right-arm Off Break",
-    "battingStyle": "Right-hand Bat",
-    "price": 660
-  },
-  {
-    "playerName": "Shakib",
-"playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
-    "origin": "Bangladesh",
-    "playerType": "All-Rounder",
-    "bowlingStyle": "Left-arm Orthodox",
-    "battingStyle": "Left-hand Bat",
-    "price": 700
-  },
+ 
   {
     "playerName": "Hasan Mahmud",
-   "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
+    "playerImage": "/src/assets/Hasan Mahmud.jpg",
     "origin": "Bangladesh",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast Medium",
     "battingStyle": "Right-hand Bat",
     "price": 550
   },
-  {
-    "playerName": "Tanzim",
-   "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
-    "origin": "Bangladesh",
-    "playerType": "Bowler",
-    "bowlingStyle": "Right-arm Fast Medium",
-    "battingStyle": "Right-hand Bat",
-    "price": 570
-  },
-  {
-    "playerName": "Towhid",
-   "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
-    "origin": "Bangladesh",
-    "playerType": "Batsman",
-    "bowlingStyle": "Right-arm Off Break",
-    "battingStyle": "Right-hand Bat",
-    "price": 640
-  },
-  {
-    "playerName": "Rishad",
-    "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
-    "origin": "Bangladesh",
-    "playerType": "All-Rounder",
-    "bowlingStyle": "Right-arm Leg Break",
-    "battingStyle": "Right-hand Bat",
-    "price": 590
-  },
+  
+  
+  
   {
     "playerName": "Babar Azam",
-    "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
+    "playerImage": "/src/assets/Babar Azam.jpg",
     "origin": "Pakistan",
     "playerType": "Batsman",
     "bowlingStyle": "None",
@@ -190,7 +70,7 @@
   },
   {
     "playerName": "Shaheen Afridi",
-  "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
+    "playerImage": "/src/assets/Shaheen Afridi.jpg",
     "origin": "Pakistan",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast",
@@ -199,7 +79,7 @@
   },
   {
     "playerName": "Mohammad Rizwan",
-   "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
+    "playerImage": "/src/assets/Mohammad Rizwan.jpg",
     "origin": "Pakistan",
     "playerType": "Wicket Keeper",
     "bowlingStyle": "None",
@@ -208,7 +88,7 @@
   },
   {
     "playerName": "Mohammad Amir",
-  "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
+    "playerImage": "/src/assets/Mohammad Amir.jpg",
     "origin": "Pakistan",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast",
@@ -217,7 +97,7 @@
   },
   {
     "playerName": "Pat Cummins",
-   "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
+    "playerImage": "/src/assets/Pat Cummins.jpg",
     "origin": "Australia",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
@@ -226,7 +106,7 @@
   },
   {
     "playerName": "David Warner",
-  "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
+    "playerImage": "/src/assets/Warner.jpg",
     "origin": "Australia",
     "playerType": "Batsman",
     "bowlingStyle": "None",
@@ -235,7 +115,7 @@
   },
   {
     "playerName": "Glenn Maxwell",
-    "playerImage": "https://bn.bdcrictime.com/player/profile/43371/babar-azam-career-records-awards-biography-more",
+    "playerImage": "/src/assets/Glenn Maxwell.jpg",
     "origin": "Australia",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Off Break",
@@ -244,7 +124,7 @@
   },
   {
     "playerName": "Mitchell Starc",
-    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDUJxtRn49UU992bclZGzWkb0MzkFjVARpjkkFanIkfH1WRHdMsI5BmQyZ4l82SJJDreWv2_HThvF6zS1l-_ZSQHt8wV96HNjGnuEpxpAV&s=10",
+    "playerImage": "/src/assets/Mitchell Starc.jpg",
     "origin": "Australia",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast",
@@ -253,7 +133,7 @@
   },
   {
     "playerName": "Kane Williamson",
-    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTn-3lYGuuCV1S-vJIWgdXnODUEcsRIAktd5DhFS9lkq01NU_vw3IA4DjI3HcIDpHydeVuXADxjSSgXxA_U14uAf3dNWippw5_BXqo5f0--w&s=10",
+    "playerImage": "/src/assets/Kane Williamson.jpg",
     "origin": "New Zealand",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Off Break",
@@ -262,7 +142,7 @@
   },
   {
     "playerName": "Trent Boult",
-    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9gbL2ApcjLweV8mGx7KfMWoTAWvoLNK_vMvqo3kQFjV-TGWr4WZd_s-IA7xI--B7XGBPVDiLPB6_4zuEsdXRa8GtZwKaTeWN7oKMYnTS&s=10",
+    "playerImage": "/src/assets/Trent Boult.jpg",
     "origin": "New Zealand",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast Medium",
@@ -271,7 +151,7 @@
   },
   {
     "playerName": "Devon Conway",
-    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD4I0110h-PCCjnveXOsxwnRSuLDAcdykSj9YgQIKco-aWW7SWJMxA0n3rHkO5HGF0r10D8hrTQYF-sxI-aHV5RhutqOi32WdjrYVxLO449w&s=10",
+    "playerImage": "/src/assets/Devon Conway.jpg",
     "origin": "New Zealand",
     "playerType": "Wicket Keeper",
     "bowlingStyle": "None",
@@ -280,7 +160,7 @@
   },
   {
     "playerName": "Rachin Ravindra",
-    "playerImage": "https://example.com/images/rachin.jpg",
+    "playerImage": "/src/assets/Rachin Ravindra.jpg",
     "origin": "New Zealand",
     "playerType": "All-Rounder",
     "bowlingStyle": "Left-arm Orthodox",
@@ -289,7 +169,7 @@
   },
   {
     "playerName": "Rashid Khan",
-    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-9izLVwcGrll14wFiD3cZhDv3FqwWDDgusp5CchjvtTFht6f-N9_3veeO1-EYZEhMSwXQ42mlb1cD9JrAdJa4IrqTmLanBU-gmP1Jj62d&s=10",
+    "playerImage": "/src/assets/Rashid Khan.jpg",
     "origin": "Afghanistan",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Leg Break",
@@ -298,7 +178,7 @@
   },
   {
     "playerName": "Mohammad Nabi",
-    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20ftY5c4vzVYUdaNwHh8ud8-XmsfhP6SgurzLFJS3nBb4GL-q-ayNBW1DTK3fJiq_Bt-h6tA-vSIbLO9H5Z7S_qu9VxehqFxtubTq5oYtdw&s=10",
+    "playerImage": "/src/assets/Mohammad Nabi.jpg",
     "origin": "Afghanistan",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Off Break",
@@ -307,25 +187,17 @@
   },
   {
     "playerName": "Rahmanullah Gurbaz",
-   "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20ftY5c4vzVYUdaNwHh8ud8-XmsfhP6SgurzLFJS3nBb4GL-q-ayNBW1DTK3fJiq_Bt-h6tA-vSIbLO9H5Z7S_qu9VxehqFxtubTq5oYtdw&s=10",
+    "playerImage": "/src/assets/Rahmanullah Gurbaz.jpg",
     "origin": "Afghanistan",
     "playerType": "Wicket Keeper",
     "bowlingStyle": "None",
     "battingStyle": "Right-hand Bat",
     "price": 630
   },
-  {
-    "playerName": "Fazalhaq Farooqi",
-  "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20ftY5c4vzVYUdaNwHh8ud8-XmsfhP6SgurzLFJS3nBb4GL-q-ayNBW1DTK3fJiq_Bt-h6tA-vSIbLO9H5Z7S_qu9VxehqFxtubTq5oYtdw&s=10",
-    "origin": "Afghanistan",
-    "playerType": "Bowler",
-    "bowlingStyle": "Left-arm Fast Medium",
-    "battingStyle": "Right-hand Bat",
-    "price": 600
-  },
+  
   {
     "playerName": "Virat Kohli",
-   "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20ftY5c4vzVYUdaNwHh8ud8-XmsfhP6SgurzLFJS3nBb4GL-q-ayNBW1DTK3fJiq_Bt-h6tA-vSIbLO9H5Z7S_qu9VxehqFxtubTq5oYtdw&s=10",
+    "playerImage": "/src/assets/Virat Kohli.jpg",
     "origin": "India",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Medium",
@@ -334,7 +206,7 @@
   },
   {
     "playerName": "Rohit Sharma",
-"playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20ftY5c4vzVYUdaNwHh8ud8-XmsfhP6SgurzLFJS3nBb4GL-q-ayNBW1DTK3fJiq_Bt-h6tA-vSIbLO9H5Z7S_qu9VxehqFxtubTq5oYtdw&s=10",
+    "playerImage": "/src/assets/Rohit Sharma.jpg",
     "origin": "India",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Off Break",
@@ -343,7 +215,7 @@
   },
   {
     "playerName": "Jos Buttler",
-    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20ftY5c4vzVYUdaNwHh8ud8-XmsfhP6SgurzLFJS3nBb4GL-q-ayNBW1DTK3fJiq_Bt-h6tA-vSIbLO9H5Z7S_qu9VxehqFxtubTq5oYtdw&s=10",
+    "playerImage": "/src/assets/Jos Buttler.jpg",
     "origin": "England",
     "playerType": "Wicket Keeper",
     "bowlingStyle": "None",
@@ -352,7 +224,7 @@
   },
   {
     "playerName": "Ben Stokes",
-   "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20ftY5c4vzVYUdaNwHh8ud8-XmsfhP6SgurzLFJS3nBb4GL-q-ayNBW1DTK3fJiq_Bt-h6tA-vSIbLO9H5Z7S_qu9VxehqFxtubTq5oYtdw&s=10",
+    "playerImage": "/src/assets/ben stocks.jpg",
     "origin": "England",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Fast Medium",
