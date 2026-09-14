@@ -1,8 +1,7 @@
 # 🏏 Dream 11 Cricket Team
 
 ## 🔗 Live Link
-
-[Visit Live Website](http://mydream.mehedihasanbd.com/)
+(http://mydream.mehedihasanbd.com/)
 
 ## 📸 Project Preview
 
