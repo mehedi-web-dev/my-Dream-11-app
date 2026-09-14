@@ -2,8 +2,11 @@
 
 ## 🔗 Live Link
 
-[Visit Live Website](http://mydream.mehedihasanbd.com/)
+[Visit Live Website]([YOUR_LIVE_LINK_HERE](http://mydream.mehedihasanbd.com/))
 
+## 📸 Project Preview
+
+![Dream 11 Cricket Team](./src/assets/image.jpg)
 
 ## 📖 Description
 
