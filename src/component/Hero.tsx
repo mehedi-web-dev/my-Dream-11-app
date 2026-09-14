@@ -11,7 +11,7 @@ const Hero = () => {
         <img src={banner} alt=""  className="w-52 h-52"/>
                <h3 className="text-black font-bold text-[30px] md:w-[75%] md:text-6xl text-center  ">Assemble Your Ultimate Dream 11 Cricket Team </h3>
                <p className="text-black font-mono text-center font-normal text-[16px] md:text-[17px]">Beyond Boundaries Beyond Limits</p>
-               <button onClick={handleClaim} className="btn btn-warning">Claim Free Credit</button>
+               <button onClick={handleClaim} className="btn btn-warning rounded-none">Claim Free Credit</button>
       </div>
     </div>
   );
