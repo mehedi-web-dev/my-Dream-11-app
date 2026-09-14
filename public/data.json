@@ -49,7 +49,7 @@
  
   {
     "playerName": "Hasan Mahmud",
-    "playerImage": "/src/assets/Hasan Mahmud.jpg",
+    "playerImage": "/src/assets/Hasan.jpg",
     "origin": "Bangladesh",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast Medium",
@@ -61,7 +61,7 @@
   
   {
     "playerName": "Babar Azam",
-    "playerImage": "/src/assets/Babar Azam.jpg",
+    "playerImage": "/src/assets/Babar .jpg",
     "origin": "Pakistan",
     "playerType": "Batsman",
     "bowlingStyle": "None",
@@ -70,7 +70,7 @@
   },
   {
     "playerName": "Shaheen Afridi",
-    "playerImage": "/src/assets/Shaheen Afridi.jpg",
+    "playerImage": "/src/assets/Afridi.jpg",
     "origin": "Pakistan",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast",
@@ -79,7 +79,7 @@
   },
   {
     "playerName": "Mohammad Rizwan",
-    "playerImage": "/src/assets/Mohammad Rizwan.jpg",
+    "playerImage": "/src/assets/Rizwan.jpg",
     "origin": "Pakistan",
     "playerType": "Wicket Keeper",
     "bowlingStyle": "None",
@@ -88,7 +88,7 @@
   },
   {
     "playerName": "Mohammad Amir",
-    "playerImage": "/src/assets/Mohammad Amir.jpg",
+    "playerImage": "/src/assets/Amir.jpg",
     "origin": "Pakistan",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast",
@@ -97,7 +97,7 @@
   },
   {
     "playerName": "Pat Cummins",
-    "playerImage": "/src/assets/Pat Cummins.jpg",
+    "playerImage": "/src/assets/Cummins.jpg",
     "origin": "Australia",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
@@ -115,7 +115,7 @@
   },
   {
     "playerName": "Glenn Maxwell",
-    "playerImage": "/src/assets/Glenn Maxwell.jpg",
+    "playerImage": "/src/assets/Maxwell.jpg",
     "origin": "Australia",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Off Break",
@@ -124,7 +124,7 @@
   },
   {
     "playerName": "Mitchell Starc",
-    "playerImage": "/src/assets/Mitchell Starc.jpg",
+    "playerImage": "/src/assets/Starc.jpg",
     "origin": "Australia",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast",
@@ -133,7 +133,7 @@
   },
   {
     "playerName": "Kane Williamson",
-    "playerImage": "/src/assets/Kane Williamson.jpg",
+    "playerImage": "/src/assets/Williamson.jpg",
     "origin": "New Zealand",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Off Break",
@@ -142,7 +142,7 @@
   },
   {
     "playerName": "Trent Boult",
-    "playerImage": "/src/assets/Trent Boult.jpg",
+    "playerImage": "/src/assets/Boult.jpg",
     "origin": "New Zealand",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast Medium",
@@ -151,7 +151,7 @@
   },
   {
     "playerName": "Devon Conway",
-    "playerImage": "/src/assets/Devon Conway.jpg",
+    "playerImage": "/src/assets/Conway.jpg",
     "origin": "New Zealand",
     "playerType": "Wicket Keeper",
     "bowlingStyle": "None",
@@ -160,7 +160,7 @@
   },
   {
     "playerName": "Rachin Ravindra",
-    "playerImage": "/src/assets/Rachin Ravindra.jpg",
+    "playerImage": "/src/assets/Ravindra.jpg",
     "origin": "New Zealand",
     "playerType": "All-Rounder",
     "bowlingStyle": "Left-arm Orthodox",
@@ -169,7 +169,7 @@
   },
   {
     "playerName": "Rashid Khan",
-    "playerImage": "/src/assets/Rashid Khan.jpg",
+    "playerImage": "/src/assets/Rashid.jpg",
     "origin": "Afghanistan",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Leg Break",
@@ -178,7 +178,7 @@
   },
   {
     "playerName": "Mohammad Nabi",
-    "playerImage": "/src/assets/Mohammad Nabi.jpg",
+    "playerImage": "/src/assets/Nabi.jpg",
     "origin": "Afghanistan",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Off Break",
@@ -187,7 +187,7 @@
   },
   {
     "playerName": "Rahmanullah Gurbaz",
-    "playerImage": "/src/assets/Rahmanullah Gurbaz.jpg",
+    "playerImage": "/src/assets/Gurbaz.jpg",
     "origin": "Afghanistan",
     "playerType": "Wicket Keeper",
     "bowlingStyle": "None",
@@ -197,7 +197,7 @@
   
   {
     "playerName": "Virat Kohli",
-    "playerImage": "/src/assets/Virat Kohli.jpg",
+    "playerImage": "/src/assets/Virat-Kohli.jpg",
     "origin": "India",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Medium",
@@ -206,7 +206,7 @@
   },
   {
     "playerName": "Rohit Sharma",
-    "playerImage": "/src/assets/Rohit Sharma.jpg",
+    "playerImage": "/src/assets/Sharma.jpg",
     "origin": "India",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Off Break",
@@ -215,7 +215,7 @@
   },
   {
     "playerName": "Jos Buttler",
-    "playerImage": "/src/assets/Jos Buttler.jpg",
+    "playerImage": "/src/assets/Butller.jpg",
     "origin": "England",
     "playerType": "Wicket Keeper",
     "bowlingStyle": "None",
@@ -224,7 +224,7 @@
   },
   {
     "playerName": "Ben Stokes",
-    "playerImage": "/src/assets/ben stocks.jpg",
+    "playerImage": "/src/assets/Stocks.jpg",
     "origin": "England",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Fast Medium",
