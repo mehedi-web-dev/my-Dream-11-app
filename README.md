@@ -1,32 +1,23 @@
-# React + TypeScript + Vite
+# 🏏 Dream 11 Cricket Team
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 🔗 Live Link
 
-Currently, two official plugins are available:
+[Visit Live Website](http://mydream.mehedihasanbd.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## 📖 Description
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A React-based web application where users can browse cricket players and build their ultimate Dream 11 cricket team.
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React.js
+- JavaScript
+- Tailwind CSS
+- JSON Data
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## ✨ Features
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- Browse available cricket players
+- View player details, ratings, and prices
+- Choose players and build your Dream 11 team
