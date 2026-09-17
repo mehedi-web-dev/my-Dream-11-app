@@ -1,7 +1,7 @@
 # 🏏 Dream 11 Cricket Team
 
 ## 🔗 Live Link
-live website link : ([https://devstack.mehedihasanbd.com/](http://mydream.mehedihasanbd.com/))
+live website link : (([http://mydream.mehedihasanbd.com/](https://mydream.mehedihasanbd.com/)))
 
 ## 📸 Project Preview
 
